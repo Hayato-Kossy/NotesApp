@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="jumbotron mt-5 text-center">
+        <h1 class="display-4">NotesApp</h1>
+        <hr class="my-4">
+        <p class="lead">
+            <div>
+            <%= link_to "Noteの一覧", notes_path, class: "btn btn-outline-info" %>
+            <%= link_to "Noteの作成", new_note_path, class: "btn btn-outline-secondary" %>
+            <%= link_to "会員登録", "#", class: "btn btn-outline-primary" %>
+
+            </div>
+        </p>
+        <p class="lead">
+        <%= link_to 'Start', notes_path, class: 'btn btn-outline-success btn-lg' %>
+        </p>
+    </div>
+</div>
